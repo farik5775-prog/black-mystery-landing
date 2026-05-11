@@ -29,6 +29,9 @@ export default function Index() {
             </p>
           </div>
 
+          <div className="book-spine" />
+          <div className="book-pages" />
+
         </div>
         <p className="tap-hint">
           {flipped ? "Коснитесь, чтобы вернуть" : "Коснитесь, чтобы перевернуть"}
