@@ -58,9 +58,7 @@ export default function Index() {
           <div className="book-face book-pages" />
 
         </div>
-        <p className="tap-hint">
-          {flipped ? "Уберите курсор, чтобы вернуть" : "Наведите или коснитесь"}
-        </p>
+
       </div>
 
       <div className="author-block">
