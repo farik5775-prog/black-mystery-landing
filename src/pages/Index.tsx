@@ -30,7 +30,6 @@ export default function Index() {
           </div>
 
           <div className="book-spine" />
-          <div className="book-pages" />
 
         </div>
         <p className="tap-hint">
