@@ -24,9 +24,14 @@ export default function Index() {
           </div>
 
           <div className="book-face back">
-            <p className="back-quote">
-              Что если всё, что ты видишь — лишь отражение того, во что ты решил поверить?
-            </p>
+            <div className="back-inner">
+              <div className="back-ornament top">✦ ✦ ✦</div>
+              <p className="back-quote">
+                Что если всё, что ты видишь — лишь отражение того, во что ты решил поверить?
+              </p>
+              <div className="back-ornament bottom">✦ ✦ ✦</div>
+              <p className="back-author">ФАРГАТ ЗАКИРОВ</p>
+            </div>
           </div>
 
           <div className="book-face book-spine" />

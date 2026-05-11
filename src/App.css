@@ -170,21 +170,68 @@ body {
   top: 0;
   left: 0;
   transform: rotateY(180deg) translateZ(20px);
-  background: linear-gradient(160deg, #1a0a2e 0%, #0d0520 60%, #0a0318 100%);
+  background: linear-gradient(160deg, #1e0b35 0%, #110620 50%, #0a0318 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 28px 22px;
+  padding: 0;
+}
+
+.back::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(160, 80, 255, 0.35);
+  pointer-events: none;
+}
+
+.back::after {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(160, 80, 255, 0.15);
+  pointer-events: none;
+}
+
+.back-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 24px 20px;
+  height: 100%;
+}
+
+.back-ornament {
+  font-size: 11px;
+  letter-spacing: 4px;
+  color: rgba(180, 120, 255, 0.7);
+  text-shadow: 0 0 8px rgba(160, 80, 255, 0.5);
 }
 
 .back-quote {
   font-family: "Cormorant", serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
-  color: #e8d8ff;
+  color: #ffffff;
   text-align: center;
-  line-height: 1.6;
-  text-shadow: 0 0 20px rgba(160, 80, 255, 0.6);
+  line-height: 1.65;
+  text-shadow:
+    0 0 16px rgba(200, 140, 255, 0.5),
+    0 1px 3px rgba(0, 0, 0, 0.8);
+  margin: 0;
+}
+
+.back-author {
+  font-family: "Cormorant", serif;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: rgba(180, 120, 255, 0.8);
+  text-transform: uppercase;
+  margin: 0;
+  text-shadow: 0 0 10px rgba(160, 80, 255, 0.4);
 }
 
 /* ── Корешок: левый торец 40px ── */
