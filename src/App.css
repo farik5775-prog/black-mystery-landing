@@ -78,11 +78,13 @@ body {
   margin-bottom: 10px;
   text-align: center;
   text-shadow:
-    0 0 6px rgba(220, 160, 255, 1),
-    0 0 16px rgba(180, 100, 255, 1),
-    0 0 35px rgba(130, 60, 255, 0.9),
-    0 0 60px rgba(90, 40, 210, 0.7),
-    0 0 90px rgba(70, 30, 180, 0.4);
+    0 0 4px #fff,
+    0 0 8px rgba(240, 200, 255, 1),
+    0 0 16px rgba(210, 140, 255, 1),
+    0 0 30px rgba(180, 80, 255, 1),
+    0 0 50px rgba(140, 50, 255, 1),
+    0 0 80px rgba(100, 30, 220, 0.9),
+    0 0 120px rgba(70, 20, 180, 0.7);
 }
 
 /* ===== BOOK TITLE ===== */
