@@ -144,7 +144,6 @@ body {
   position: absolute;
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  overflow: hidden;
 }
 
 /* ── Передняя обложка ── */
@@ -195,7 +194,7 @@ body {
   top: 0;
   left: 0;
   transform-origin: left center;
-  transform: rotateY(-90deg) translateZ(-20px);
+  transform: rotateY(-90deg);
   background: linear-gradient(to right, #0e061e 0%, #1a0a38 50%, #120828 100%);
 }
 
@@ -216,9 +215,9 @@ body {
   width: 40px;
   height: 320px;
   top: 0;
-  left: 220px;
-  transform-origin: left center;
-  transform: rotateY(90deg) translateZ(20px);
+  left: 180px;
+  transform-origin: right center;
+  transform: rotateY(90deg);
   background: repeating-linear-gradient(
     to bottom,
     #f0ebe0 0px,
